@@ -16,7 +16,7 @@
     box-sizing: border-box;
     padding-top: 200px;
     background-size: cover;
-    background-position: center
+    background-position: center;
 }
 .jumbotron .container-fluid{
     background-color: #e5c944 !important;
@@ -51,7 +51,7 @@
     height: 600px;
 }
 .heading{
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'futura';
     color: #ffdd37;
     font-size: 30px;
     text-align: center;
@@ -84,7 +84,7 @@
 #skills i{
     font-size: 65px;
     color: white;
-     padding: 50px;
+     padding-top: 50px;
 }
 #skills h5{
     color: white;
