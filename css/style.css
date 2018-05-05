@@ -50,6 +50,10 @@
     width:100%;
     height: 600px;
 }
+@font-face {
+    font-family: futura;
+    src: url(futura.ttc);
+}
 .heading{
     font-family: 'futura';
     color: #ffdd37;
