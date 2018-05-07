@@ -50,17 +50,25 @@
     width:100%;
     height: 600px;
 }
-@font-face {
-    font-family: futura;
-    src: url(futura.ttc);
-}
+
 .heading{
-    font-family: 'futura';
+    font-family:'Oswald', sans-serif;
     color: #ffdd37;
-    font-size: 30px;
+    font-size: 35px;
     text-align: center;
     text-transform: capitalize;
     font-weight: bold;
+    letter-spacing: 2px;
+}
+h3+span{
+    display: block;
+    margin: 0 auto;
+    width: 70px;
+    height: 10px;
+    border-top: 4px solid #ff6b5b;
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
 }
 #about p{
     font-family: 'Arial';
@@ -69,7 +77,8 @@
     text-align: justify;
     font-weight: 500px;
     letter-spacing: 1px;
-    padding: 30px;
+    padding-top: 30px;
+    padding-bottom: 50px;
 }
 
 #skills{
@@ -77,13 +86,14 @@
     height: 700px;
 }
 #skills h3{
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Oswald', sans-serif;
     color: white;
-    font-size: 30px;
+    font-size: 35px;
     text-align: center;
     text-transform: capitalize;
     font-weight: bold;
     padding-top: 30px;
+    letter-spacing: 2px;
 }
 #skills i{
     font-size: 65px;
@@ -105,19 +115,20 @@
 }
 
 #Projects h3{
-    padding: 20px;
+    padding-top: 50px;
 }
 #contact{
     background-color: #ffdd37;
 }
 #contact h3{
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Oswald', sans-serif;
     color: white;
-    font-size: 30px;
+    font-size: 35px;
     text-align: center;
     text-transform: capitalize;
     font-weight: bold;
-    padding:20px;
+    padding-top:70px;
+    letter-spacing: 2px;
 }
 footer{
     text-align: center;
@@ -226,7 +237,7 @@ footer i{
         height: 640px;
     }
     .heading{
-        font-family: 'Cormorant Garamond', serif;
+
         color: #ffdd37;
         font-size: 35px;
         text-align: center;
@@ -277,7 +288,7 @@ footer i{
         height: 650px;
     }
     .heading{
-        font-family: 'Cormorant Garamond', serif;
+
         color: #ffdd37;
         font-size: 35px;
         text-align: center;
@@ -321,10 +332,11 @@ footer i{
 @media only screen and (min-width : 1200px) {
     #about{
         width:100%;
-        height: 620px;
+        height: 670px;
     }
     .heading{
         padding-top: 30px;
+
     }
     #about p{
         font-family: 'Arial';
@@ -333,15 +345,24 @@ footer i{
         text-align: justify;
         font-weight: 500px;
         letter-spacing: 1px;
-        padding: 30px;
+        padding-top: 30px;
+        padding-bottom: 50px;
     }
     .mt40{
         margin-top: 70px;
     }
+    #skills{
+        height: 576px;
+    }
+    #skills h3{
+        font-size: 40px;
+        padding-top: 60px;
+    }
     #skills i{
-    font-size: 85px;
-    color: white;
-     padding: 30px;
+        font-size: 85px;
+        color: white;
+         padding-top: 35px;
+        padding-bottom: 10px;
     }
     #skills h5{
         color: white;
@@ -350,15 +371,24 @@ footer i{
         text-align: center;
     }
     #skills img{
-        padding-top: 27px;
-        width: 120px;
+        padding-top: 37px;
+        width: 140px;
+        padding-bottom: 4px;
+    }
+    #Projects .row{
         padding-bottom: 30px;
     }
-    
+    h3+span{
+        padding-bottom: 40px;
+    }
+    .mt30 {
+        margin-top: 30px;
+    }
     #anglar i{
         font-size: 100px;
         padding-top: 40px;
     }
+    
     #form1{
         height:300px;
         margin: 0 auto;
